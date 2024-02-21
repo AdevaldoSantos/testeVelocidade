@@ -1,0 +1,37 @@
+@mixin display-flex($display, $justify, $align, $flex) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $flex
+}
+
+@mixin style($back, $font-size ,$font-family, $padding, $border, $margin) {
+    background-color: $back;
+    font-size: $font-size;
+    font-family: $font-family;
+    padding: $padding;
+    border-radius: $border;
+    margin: $margin;
+}
+
+body {
+    @include display-flex(flex, center, center, column);
+    background-color: #6dff6d;
+}
+
+.velocidades {
+    @include display-flex(flex, center, center, column);
+    @include style(#acffac, 22px, Arial, 15px, 20px, 5px);
+    width: auto;
+}
+
+h1 {
+    @include display-flex(flex, center, center, column);
+    @include style(#6dff6d, 32px, Arial, 15px, none, 5px);
+}
+
+.resposta {
+    @include display-flex(flex, center, center, column);
+    @include style(#acffac, 17px, Arial, 15px, 20px, 5px);
+    width: auto;
+}

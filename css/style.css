@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #6dff6d;
+}
+
+.velocidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #acffac;
+  font-size: 22px;
+  font-family: Arial;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 5px;
+  width: auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #6dff6d;
+  font-size: 32px;
+  font-family: Arial;
+  padding: 15px;
+  border-radius: none;
+  margin: 5px;
+}
+
+.resposta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #acffac;
+  font-size: 17px;
+  font-family: Arial;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 5px;
+  width: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
