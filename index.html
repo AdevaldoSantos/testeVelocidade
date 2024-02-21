@@ -12,18 +12,19 @@
         <h1>Teste de velocidade</h1>
         <div class="velocidades">
             <label for="vel1">Velocidade do carro 1:</label>
-            <input type="text" class="vel1" id="vel1">
+            <input type="number" class="vel1" id="vel1">
             <br>
             <label for="vel2">Velocidade do carro 2:</label>
-            <input type="text" class="vel2" id="vel2">
+            <input type="number" class="vel2" id="vel2">
             <br>
-            <input type="button" value="Calcular">
+            <input type="button" value="Calcular" onclick="calcular()">
         </div>
         <div class="resposta">
             <h3 class="titulo-resposta">O carro mais rápido é o:</h3>
-            <p class="paragrafo-resposta"></p>
+            <p class="paragrafo-resposta" id="paragrafo-resposta"></p>
         </div>
     </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
